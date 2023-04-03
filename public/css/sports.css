@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+/* NavBar */
+
+.Nav-bar{
+    background-color: black;
+    padding: 1%;
+    
+}
+
+.brand-name{
+    margin-left: 2rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.nav-bar-options{
+    position: relative;
+    margin-left: 30rem;
+    margin-top: 0;
+    display: inline;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+    font-weight: bold; }
+
+
+#nav-bar-greeting{
+    color: #fff;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 34rem;
+}
+
+.my-profile{
+    margin-left: 34rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+
+
+.Nav-bar a:hover {
+    color:#fff ; 
+    text-decoration: underline !important;
+    cursor:pointer;  
+}
+
+/* Main Section */
+
+.btn{
+    font-family: 'Labrada', serif;
+}
+
+#main{
+    background-color: black;
+}
+.container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-title{
+    color:white;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+}
+.card-text{
+    color:white;
+    font-family: 'Labrada', serif;
+    
+}
+
+/* Footer Section */
+
+.footer-icons{
+    margin: 0 12px 12px 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer{
+    background-color: black;
+  }
+  .copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .footer-box{
+    background-color:black;
+    padding: 7%;
+    text-align:center;
+}
+
+.fab:hover{
+    color: yellow;
+}
+.fas:hover{
+    color: yellow;
+}

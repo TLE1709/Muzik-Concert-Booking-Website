@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Muzik</title>
+
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="photos/icon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/signinstyle.css">
+
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="signinstyle.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada&family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body >
+    
+      <div class="main">
+        <div class="form-box">
+            <span class="brand-name" style="color:black; font-family: 'Tilt Neon', cursive;;font-weight:bold">Muzik</span>
+            <span class="greeting">Welcome To Muzik</span>
+            <span class="signin">Sign in to Continue</span>
+            <span class="donthaveanaccount">Don't have an account ?</span><a href="signup.html" class="create-account">Click Here</a>
+            <span class="minute">It takes less than a minute</span>
+           
+           <!-- action ka matlab hota h ki post krne pe data kaha jana chahiye -->
+            <form action="/login" method="POST" class="form">
+                <div class="input">
+                    <input type="email" class="input_field" placeholder="Email" name="email" autocomplete="off" required />
+                    <!-- <label class="input_label">Email</label> -->
+                </div>
+                <div class="input">
+                    <input type="password" class="input_field" placeholder="Password" name="password" autocomplete="off" required />
+                    <!-- <label class="input_label">Password</label> -->
+                    
+                </div>
+
+
+                <button type="submit" id="btn1">Login</button>
+                </form>
+                
+        </div>
+        <div class="img-box">
+            <img  class="img" src="photos/martingarrix.jpg" alt="concert-img"></div>    
+    </div>    
+    
+    <script src="index.js" type="text/javscript"></script>
+</body>
+</html>
