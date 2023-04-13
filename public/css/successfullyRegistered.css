@@ -1,0 +1,30 @@
+
+*{
+    font-family: 'Labrada', serif;
+}
+
+.registered-heading{
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 20rem;
+}
+
+.login{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 16rem;
+    margin-left: 38rem;
+}
+
+.login-href{
+    text-decoration: none;
+    color: white;
+}
+
+.login-href:hover{
+    text-decoration: underline;
+    color: white;
+}

@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+/* NavBar */
+
+.Nav-bar{
+    background-color: black;
+    padding: 1%;
+    
+}
+
+.brand-name{
+    margin-left: 2rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.nav-bar-options{
+    position: relative;
+    margin-left: 34rem;
+    margin-top: 0;
+    display: inline;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+    font-weight: bold;
+}
+
+#nav-bar-greeting{
+    color: #fff;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.login{
+    margin-left: 34rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    color: #fff;
+    position: static;
+}
+
+
+.Nav-bar a:hover {
+    color:#fff ; 
+    text-decoration: underline !important;
+    cursor:pointer;  
+}
+
+/* About Us Section */
+
+#about-us{
+    background-color: black;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    width: 80%;
+}
+.about-us-div{
+    color:#fff;
+
+}
+
+.about-us-heading{
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+}
+
+.about-us-content{
+
+    font-family: 'Labrada', serif;
+}
+
+
+/* Team  Section*/
+
+#team{
+    text-align: center;
+    color: #fff;
+    font-family: 'Labrada', serif;
+}
+.team-img{
+    width: 300px;
+    position: relative;
+    margin-left: 34rem;
+
+}
+
+/* Work Data Section */
+
+.section-work-data{
+    color: #fff;
+    padding: 4%;
+    font-family: 'Labrada', serif;
+    padding-left: 14%;
+    padding-top: 14%;
+}
+
+.box{
+    display: inline-block;
+    width: 24%;
+}
+
+.customer-img{
+    width: 30%;
+}
+
+/* Footer Section */
+
+.footer-icons{
+    margin: 0 12px 12px 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer{
+    background-color: black;
+  }
+  .copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .footer-box{
+    background-color:black;
+    padding: 7%;
+    text-align:center;
+}
+
+.fab:hover{
+    color: yellow;
+}
+.fas:hover{
+    color: yellow;
+}

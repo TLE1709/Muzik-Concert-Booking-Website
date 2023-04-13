@@ -51,7 +51,7 @@ app.post("/register",async (req,res) => {
         })
         
        const registered= await registerUser.save();
-       res.status(201).send("Account Successfully Created");
+       res.status(201).redirect("/successfullyRegistered.html");
     }
     catch(err){
         res.status(400).send(err+ "Failed to Create Account Please TryAgain");
@@ -68,10 +68,11 @@ app.post("/register",async (req,res) => {
         //Isme left wala email database ka aur right wala email req.body.email wala
         const useremail=await Register.findOne({email:email});
            userName= useremail.fullname;
-            aage=useremail.age;
-            ggender=useremail.gender;
-            pphonenumber=useremail.phonenumber
-            eemail=useremail.email;
+           
+            // aage=useremail.age;
+            // ggender=useremail.gender;
+            // pphonenumber=useremail.phonenumber
+            // eemail=useremail.email;
         //    console.log(userName);
         if(useremail.password===password){
             res.status(201).redirect("/homepage.html");
@@ -82,11 +83,12 @@ app.post("/register",async (req,res) => {
         }
     });
 
-    module.exports={userName,aage,ggender,pphonenumber,eemail};
+
+    module.exports=userName;
 
 app.get("*",function(req,res){
 
-    res.send("404 Error ");
+    res.redirect("/404ERROR.html");
 });
 
 app.post("/",function(req,res){

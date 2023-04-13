@@ -32,10 +32,11 @@ body{
     position: relative;
     margin-left: 30rem;
     margin-top: 0;
-    display: inline;
+    display: inline-block;
     color: #fff;
     font-family: 'Mynerve', cursive;
     font-weight: bold;
+    width: 24%;
 }
 
 #motivation-quotes{
@@ -45,14 +46,29 @@ body{
     font-size: 12px;
 }
 
-.login{
-    margin-left: 25rem;
+.aboutus{
+
+    margin-left: 14rem;
     font-family: 'Labrada', serif;
     font-weight: bold;
     color: #fff;
-    position: static;
+}
+.login{
+    margin-left: 5rem;
+    margin-top: 0.65rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
 }
 
+.aboutus:hover{
+    color: white;
+}
+
+.login:hover{
+    color:white
+}
 .navbar-tags{
     padding: 0.8%;
     font-family: 'Mynerve', cursive;
@@ -64,7 +80,7 @@ body{
 
 a:hover {
     color:#fff ; 
-    text-decoration: none !important;
+    text-decoration: underline !important;
     cursor:pointer;  
 }
 /* 2nd Section */

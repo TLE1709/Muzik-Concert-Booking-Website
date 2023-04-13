@@ -1,0 +1,110 @@
+.Nav-bar{
+    background-color: #609966;
+    padding: 1%;
+    
+}
+
+.brand-name{
+    
+    position: relative;
+    margin-left: 40rem;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+
+/* Main Section  */
+
+.main{
+    padding: 5%;
+}
+#yay{
+    position: absolute;
+    color:#609966;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+img{
+
+    width: 50%;
+    position: relative;
+    margin-left: 4rem;
+}
+
+
+.continue-exploring .continue-exploring{
+
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left:16rem;
+    margin-top: 3rem;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.logout{
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Labrada', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left:26rem;
+    margin-top: 1.55rem;
+}
+
+.logout:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#continue-exploring:hover{
+
+    text-decoration: underline;
+}
+/* Footer Section */
+
+#footer{
+    background-color: #609966;
+    margin-top: 2rem;
+}
+.footer-icons{
+    margin: 0 12px 12px 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer{
+    background-color: #609966;
+  }
+  .copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .footer-box{
+    background-color:#609966;
+    padding: 3%;
+    text-align:center;
+}
+
+.fab:hover{
+    color:white;
+}
+.fas:hover{
+    color:white;
+}
+
