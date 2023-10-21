@@ -1,3 +1,3 @@
-# IWP_Project
+# Muzik - Your OneStop Destination for Your Favourite Artist's Concert!
 
-Event Booking Website using HTML,CSS,JS,NodeJS,ExpressJS
+Muzik is carefully crafted with HTML, CSS, and Javascript on the frontend, and powered by the robust Node.js backend with a MongoDB database, seamlessly integrated through Mongoose.
