@@ -11,10 +11,10 @@ Login Page
 Signup Page
 ![image](https://github.com/TLE1709/Muzik-Concert-Booking-Website/assets/97980131/c9bb1c8c-5226-4552-a40e-e7bfc95c4b2a)
 
-Booking Page
+Individual Page for each Event
 ![image](https://github.com/TLE1709/Muzik-Concert-Booking-Website/assets/97980131/a0def10e-afed-4b0b-b041-89bcb229c014)
 
-Individual Page for each Event
+Booking Page
 ![image](https://github.com/TLE1709/Muzik-Concert-Booking-Website/assets/97980131/35f444e2-c226-45b4-9822-9f2e9e94c3f9)
 
 Payment Page
